@@ -35,16 +35,11 @@ const ANNOUNCEMENTS = [
     detail: "We believe God has an incredible season ahead for Victory Life, and we're excited to share more about where He's leading us. Join us at one of three sessions this September.",
     items: ["Sun, Sept 20 @ 3:00 PM", "Fri, Sept 25 @ 6:00 PM", "Sun, Sept 27 @ 3:00 PM"],
     link: { label: "Event details", url: "https://victorylifechurch.com/event/durant-campus-vision-event/" }
-  },
-  {
-    title: "Sample announcement two",
-    detail: "Replace this with the real detail. If there's no link for this one, just delete the whole 'link' line below.",
-    link: { label: "Sign up", url: "https://example.com" }
-  },
-  {
-    title: "Sample announcement three",
-    detail: "Replace this with the real detail.",
-    link: null
   }
+
+  // Add up to 2 more announcements here whenever you have them —
+  // just copy the block above, fill in your own title/detail/items/
+  // link, and separate entries with a comma.
 ];
+
 
