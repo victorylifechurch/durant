@@ -15,6 +15,12 @@ Because the content lives in its own tiny file, updating the page is
 just "replace this one small file" — there's no way to accidentally
 break the layout while typing up announcements.
 
+Each announcement is a **tap-to-expand card**. The title is always
+visible; tapping it reveals the detail, an optional link, and an
+optional list of extra info (handy for something like multiple
+session times for one event). The first card opens by default so
+there's always something visible at a glance.
+
 ## One-time setup: hosting it on GitHub Pages
 
 1. Create a free GitHub account if you don't have one: github.com
@@ -59,6 +65,9 @@ You don't need to know code. Each week:
 - Keep each detail to 1–2 sentences. People are reading this on their
   phone, often quickly.
 - A link is optional per item — most weeks probably won't need one.
+- If an item has multiple times or dates (like one event offered on
+  several days), mention that and Claude will add it as a small list
+  inside the expanded card.
 - If you want to reuse this exact prompt every week, save it as a note
   on your phone and just swap in the new details each time.
 
